@@ -63,7 +63,7 @@ Add your WeatherAPI key to the `.env` file:
 
 ### 2. Run the development server
 ```bash
-npm start
+npm run dev
 ```
 
    
