@@ -1,18 +1,69 @@
-# React + Vite
+# Weather Analytics Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Weather Analytics Dashboard is a React-based web application that provides real-time weather insights, forecasts, and historical data visualization. It helps users understand both short-term and long-term weather patterns across different cities.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Dashboard displaying real-time temperature, humidity, wind speed, and condition icons for multiple cities.  
+- Detailed view with 5–7 day forecasts, hourly trends, and advanced weather stats (pressure, UV index, dew point, etc.).  
+- City search with autocomplete and the ability to favorite cities, with data persistence between sessions.  
+- Interactive charts using Recharts to visualize temperature, precipitation, and wind speed trends.  
+- Option to toggle between Celsius and Fahrenheit.  
+- Real-time data updates using WeatherAPI.  
+- Google Sign-In authentication via Firebase.  
+- Caching to minimize unnecessary API calls.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend:** React, Redux Toolkit, Tailwind CSS  
+- **Backend / APIs:** WeatherAPI  
+- **Authentication:** Firebase (Google Sign-In)  
+- **Charts:** Recharts  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Tejasbamane007/Weather-Analytics.git
+   ```
+
+---
+
+# Weather Analytics - Setup Guide
+
+## Steps to Run the Project
+
+### 1. Navigate to the project directory
+```bash
+cd Weather-Analytics
+```
+
+---
+
+## Installation and Setup
+
+### 1. Install dependencies
+```bash
+npm install
+```
+
+---
+
+### 1. Create a `.env` file in the root directory
+Add your WeatherAPI key to the `.env` file:
+
+---
+
+
+### 2. Run the development server
+```bash
+npm start
+```
+
+   
